@@ -1,0 +1,10 @@
+title 0.5 Single page app
+
+Browser->Server: GET request to https://studies.cs.helsinki.fi/exampleapp/spa
+Server-->Browser: sends spa html
+Browser-> Server: GET request to https://studies.cs.helsinki.fi/exampleapp/main.css
+Server-->Browser: sends main.css
+Browser->Server: GET request to https://studies.cs.helsinki.fi/exampleapp/spa.js
+Server-->Browser: sends spa.ja
+Browser->Server: GET request to https://studies.cs.helsinki.fi/exampleapp/data.json
+Server-->Browser: sends data.json
