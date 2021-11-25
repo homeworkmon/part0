@@ -1,0 +1,7 @@
+title 0.6 new note
+
+Browser->Server: POST request to https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over Browser:
+content type in header request is JSON so server can parse it
+end note
+Server-->Browser: response 201 content created
