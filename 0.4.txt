@@ -1,0 +1,12 @@
+title 0.4 new note
+
+Browser->Server: User submits form with POST to /exampleapp/new_note
+Server-->Browser: 302 Redirect Response to 'location' in header - /exampleapp/notes
+Browser-> Server: Browser reloads 'notes' page from server
+Server-->Browser: sends notes
+Browser->Server: Requests main.css
+Server-->Browser: sends main.css
+Browser->Server: Requests main.js
+Server-->Browser: sends main.js
+Browser->Server: requests data.json
+Server-->Browser: sends data.json
